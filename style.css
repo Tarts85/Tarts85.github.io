@@ -1,0 +1,96 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+	position: relative;
+	bottom: -42px;
+	text-align: center;
+	color: rgba(0, 0, 0);
+	font-weight: bold;
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 5px;
+	margin: 10px;
+}
+
+li img {
+	width: 36px;
+	height: 36px;
+}
+
+.bg {
+	background-image: url("images/belayer.jpg"); /*Image taken from Unsplash | by Fancycrave*/
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.btn-primary {
+	background-color: rgba(219, 102, 0, 1);
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: rgba(143, 0, 148, 0.8);
+}
+
+.display-4 {
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+}
+
+.jumbotron {
+	background: none;
+	text-align: center;
+}
+
+.lead {
+	font-weight: bold;
+}
+
+.navbar {
+	opacity: 0.5;
+}
+
+.nav-item {
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.image1 {
+    background-image: url("images/knot.jpg"); /*Image taken from Unsplash | by Brook Anderson*/
+    opacity: 0.9;
+}
+
+.image2 {
+    background-image: url("images/climb.jpg"); /*Image taken from Unsplash | by Brook Anderson*/
+    opacity: 0.9;
+}
+
+.image3 {
+    background-image: url("images/memories.jpg"); /*Image taken from Unsplash | by Jef Willemyns*/
+    opacity: 0.9;
+}
+
+.image {
+	position: relative;
+	bottom: -90px;
+	margin: 0 auto;
+	max-width: 100%;
+	height: 250px;
+	border: 3px solid rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+    background-size: cover;
+}
+
+.copy {
+	position: relative;
+	bottom: -50px;
+	text-align: center;
+	margin: 0 auto;
+}
